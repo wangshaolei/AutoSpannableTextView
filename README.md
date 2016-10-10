@@ -6,5 +6,5 @@
         <attr name="AutoLinkStyleTextView_default_color" format="color|reference"/>//颜色设置
         <attr name="AutoLinkStyleTextView_has_under_line" format="boolean"/>//是否需要下划线
     </declare-styleable>
-```<br>
+```
 ![](https://github.com/wangshaolei/UnderLineLinkTextView/blob/master/img/1.png)   ![](https://github.com/wangshaolei/UnderLineLinkTextView/blob/master/img/2.png)
