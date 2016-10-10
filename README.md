@@ -1,5 +1,6 @@
 # UnderLineLinkTextView
 支持部分关键字带下划线可点击的TextView<br>
+```xml
     <declare-styleable name="AutoLinkStyleTextView">
         <attr name="AutoLinkStyleTextView_text_value" format="string|reference"/>
         <attr name="AutoLinkStyleTextView_default_color" format="color|reference"/>
