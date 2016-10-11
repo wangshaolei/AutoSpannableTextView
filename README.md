@@ -8,16 +8,27 @@ Support some of the key words can be clicked with the underline TextView<br>
     </declare-styleable>
 ```
 <br>
-for example:<br>
+use, for example:<br>
 ```xml
     <xx.AutoLinkStyleTextView
         android:id="@+id/tv_clause"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:text="我已核对付款金额，仔细阅读并同意“购买须知”及约克论坛团购“用户条款”"
         android:textSize="16sp"
         app:AutoLinkStyleTextView_text_value="“购买须知”,“用户条款”"
         />
+```
+```java
+    autoLinkStyleTextView.setOnClickCallBack(new AutoLinkStyleTextView.ClickCallBack() {
+        @Override
+        public void onClick(int position) {
+            if (position == 0) {
+                Toast.makeText(MainActivity.this, "购买须知", Toast.LENGTH_SHORT).show();
+            } else if (position == 1) {
+                Toast.makeText(MainActivity.this, "用户条款", Toast.LENGTH_SHORT).show();
+            }
+        }
+     });
 ```
 ![](https://github.com/wangshaolei/UnderLineLinkTextView/blob/master/img/1.png)   ![](https://github.com/wangshaolei/UnderLineLinkTextView/blob/master/img/2.png)
