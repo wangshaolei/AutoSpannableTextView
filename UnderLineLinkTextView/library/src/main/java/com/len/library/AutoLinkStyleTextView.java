@@ -43,6 +43,7 @@ public class AutoLinkStyleTextView extends TextView {
         DEFAULT_COLOR = typedArray.getColor(R.styleable.AutoLinkStyleTextView_AutoLinkStyleTextView_default_color, DEFAULT_COLOR);
         HAS_UNDER_LINE = typedArray.getBoolean(R.styleable.AutoLinkStyleTextView_AutoLinkStyleTextView_has_under_line, HAS_UNDER_LINE);
         addStyle();
+		typedArray.recycle();
     }
 
     private void addStyle(){
