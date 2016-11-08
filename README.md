@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/wangshaolei/UnderLineLinkTextView.svg)](https://jitpack.io/#wangshaolei/UnderLineLinkTextView)
+
 # UnderLineLinkTextView
 Support some of the key words can be clicked with the underline TextView<br>
 ```xml
