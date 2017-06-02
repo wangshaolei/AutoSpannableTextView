@@ -1,5 +1,8 @@
 # UnderLineLinkTextView
 Support some of the key words can be clicked with the underline TextView<br>
+
+##Step1
+
 ```xml
     <declare-styleable name="AutoLinkStyleTextView">
         <attr name="AutoLinkStyleTextView_text_value" format="string|reference"/>//key word with color and underline, and split with ','(en)
@@ -8,7 +11,9 @@ Support some of the key words can be clicked with the underline TextView<br>
     </declare-styleable>
 ```
 <br>
-use, for example:<br>
+
+##Step2
+
 ```xml
     <xx.AutoLinkStyleTextView
         android:id="@+id/tv_clause"
@@ -19,6 +24,8 @@ use, for example:<br>
         app:AutoLinkStyleTextView_text_value="“购买须知”,“用户条款”"
         />
 ```
+##Step3
+
 ```java
     autoLinkStyleTextView.setOnClickCallBack(new AutoLinkStyleTextView.ClickCallBack() {
         @Override
@@ -31,4 +38,6 @@ use, for example:<br>
         }
      });
 ```
-![](https://github.com/wangshaolei/UnderLineLinkTextView/blob/master/img/1.png)   ![](https://github.com/wangshaolei/UnderLineLinkTextView/blob/master/img/2.png)
+
+![](https://github.com/wangshaolei/UnderLineLinkTextView/blob/master/img/1.png)
+![](https://github.com/wangshaolei/UnderLineLinkTextView/blob/master/img/2.png)
