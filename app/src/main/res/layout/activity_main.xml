@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.len.MainActivity">
+    android:orientation="vertical"
+    >
 
     <com.len.library.AutoLinkStyleTextView
         android:id="@+id/tv"
@@ -20,4 +20,15 @@
         app:AutoLinkStyleTextView_text_value="“购买须知”,“用户条款”"
         />
 
-</RelativeLayout>
+    <com.len.library.AutoLinkStyleTextView
+        android:id="@+id/tv_start_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="活动介绍，开始以图片开头"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        app:AutoLinkStyleTextView_start_image="@mipmap/ic_qupai_subject_information"
+        app:AutoLinkStyleTextView_type="start_image"
+        />
+
+</LinearLayout>

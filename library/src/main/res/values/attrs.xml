@@ -6,6 +6,11 @@
         <attr name="AutoLinkStyleTextView_text_value" format="string|reference"/>
         <attr name="AutoLinkStyleTextView_default_color" format="color|reference"/>
         <attr name="AutoLinkStyleTextView_has_under_line" format="boolean"/>
+        <attr name="AutoLinkStyleTextView_start_image" format="reference"/>
+        <attr name="AutoLinkStyleTextView_type">
+            <enum name="start_image" value="0"/>
+            <enum name="content_text" value="1"/>
+        </attr>
     </declare-styleable>
 
 </resources>

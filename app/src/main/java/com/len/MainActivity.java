@@ -7,7 +7,7 @@ import android.widget.Toast;
 import com.len.library.AutoLinkStyleTextView;
 
 public class MainActivity extends AppCompatActivity {
-    private AutoLinkStyleTextView autoLinkStyleTextView;
+    private AutoLinkStyleTextView autoLinkStyleTextView, tvStartImage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,5 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        tvStartImage = (AutoLinkStyleTextView) findViewById(R.id.tv_start_image);
+        tvStartImage.setStartImageText(tvStartImage.getText());
     }
 }
