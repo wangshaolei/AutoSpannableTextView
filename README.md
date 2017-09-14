@@ -1,7 +1,7 @@
 # AutoSpannableTextView
 Support some of the key words can be clicked with the underline TextView<br>
 
-##Step1
+Step1：
 
 ```xml
     <declare-styleable name="AutoLinkStyleTextView">
@@ -17,7 +17,7 @@ Support some of the key words can be clicked with the underline TextView<br>
 ```
 <br>
 
-##Step2
+Step2：
 
 ```xml
     //style1
@@ -41,7 +41,7 @@ Support some of the key words can be clicked with the underline TextView<br>
         />
 
 ```
-##Step3
+Step3：
 
 ```java
 
