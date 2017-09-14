@@ -20,6 +20,7 @@ Support some of the key words can be clicked with the underline TextView<br>
 ##Step2
 
 ```xml
+    //style1
     <xx.AutoLinkStyleTextView
         android:id="@+id/tv_clause"
         android:layout_width="match_parent"
@@ -28,6 +29,7 @@ Support some of the key words can be clicked with the underline TextView<br>
         android:textSize="16sp"
         app:AutoLinkStyleTextView_text_value="“购买须知”,“用户条款”"
         />
+    //style2
     <xx.AutoLinkStyleTextView
         android:id="@+id/tv_start_image"
         android:layout_width="match_parent"
@@ -37,10 +39,13 @@ Support some of the key words can be clicked with the underline TextView<br>
         app:AutoLinkStyleTextView_start_image="@mipmap/ic_qupai_subject_information"
         app:AutoLinkStyleTextView_type="start_image"
         />
+
 ```
 ##Step3
 
 ```java
+
+    //style1
     autoLinkStyleTextView.setOnClickCallBack(new AutoLinkStyleTextView.ClickCallBack() {
         @Override
         public void onClick(int position) {
@@ -51,6 +56,9 @@ Support some of the key words can be clicked with the underline TextView<br>
             }
         }
      });
+     
+     //style2
+     setStartImageText(tvStartImage.getText());
 ```
 
 ![](https://github.com/wangshaolei/UnderLineLinkTextView/blob/master/img/1.png)
