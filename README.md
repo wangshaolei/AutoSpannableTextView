@@ -1,6 +1,9 @@
 # AutoSpannableTextView
 Support some of the key words can be clicked with the underline TextView<br>
 
+[![](https://jitpack.io/v/wangshaolei/AutoSpannableTextView.svg)](https://jitpack.io/#wangshaolei/AutoSpannableTextView)
+
+
 Step1：
 
 ```xml
