@@ -1,6 +1,7 @@
 # AutoSpannableTextView
 Support some of the key words can be clicked with the underline TextView<br>
 
+
 Step1：
 
 ```xml
